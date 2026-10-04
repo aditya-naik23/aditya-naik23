@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="0.55" stop-color="#14213d"/><stop offset="1" stop-color="#2b1b4d"/></linearGradient>
+<linearGradient id="nm" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset="0.6" stop-color="#a371f7"/><stop offset="1" stop-color="#f778ba"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#ffffff" opacity="0.07"/></pattern>
+<clipPath id="cp"><rect width="1000" height="300" rx="18"/></clipPath>
+</defs>
+<style>
+.tl{font:500 22px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#c9d1d9;opacity:0;animation:cyc 9s infinite}
+@keyframes cyc{0%{opacity:0;transform:translateY(8px)}5%{opacity:1;transform:translateY(0)}28%{opacity:1}33%{opacity:0}100%{opacity:0}}
+.pulse{animation:pl 1.8s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:1}50%{opacity:.25}}
+.float{animation:fl 6s ease-in-out infinite}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+</style>
+<g clip-path="url(#cp)">
+<rect width="1000" height="300" fill="url(#bg)"/><rect width="1000" height="300" fill="url(#dots)"/>
+<g class="float"><circle cx="860" cy="90" r="120" fill="#a371f7" opacity="0.10"/><circle cx="930" cy="230" r="80" fill="#58a6ff" opacity="0.10"/></g>
+<g opacity="0.9" transform="translate(790,70)" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round">
+<rect x="0" y="0" width="150" height="110" rx="12" opacity="0.5"/>
+<polyline points="20,80 50,50 75,65 105,30 130,45" stroke="#3fb950" stroke-width="3"/>
+<circle cx="50" cy="50" r="4" fill="#3fb950" stroke="none"/><circle cx="105" cy="30" r="4" fill="#3fb950" stroke="none"/>
+<line x1="20" y1="95" x2="130" y2="95" opacity="0.4"/></g>
+<text x="70" y="98" style="font:600 18px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#58a6ff">&lt;hello world/&gt;</text>
+<text x="70" y="160" style="font:800 64px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:url(#nm)">Aditya Naik</text>
+<text x="70" y="188" class="tl" style="animation-delay:0s">Computer Engineering Student  ·  ML &amp; Data  ·  Builder</text><text x="70" y="188" class="tl" style="animation-delay:3s">I turn raw data into working ML apps</text><text x="70" y="188" class="tl" style="animation-delay:6s">Python  ·  SQL  ·  C  ·  scikit-learn  ·  Streamlit</text>
+<rect x="70" y="228" width="300" height="38" rx="19" fill="#0d1117" opacity="0.65" stroke="#3fb950" stroke-opacity="0.6"/>
+<circle class="pulse" cx="94" cy="247" r="6" fill="#3fb950"/>
+<text x="112" y="252" style="font:600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#c9d1d9">Open to ML / AI / Data internships · Pune</text>
+</g>
+<rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="#30363d"/>
+</svg>
