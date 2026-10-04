@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://www.linkedin.com/in/aditya-naik-269b2b375"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="40"/></a>
-<a href="mailto:YOUR_EMAIL@example.com"><img src="assets/btn-email.svg" alt="Email" height="40"/></a>
+<a href="mailto:naikaaditya2302@gmail.com"><img src="assets/btn-email.svg" alt="Email" height="40"/></a>
 <a href="https://github.com/aditya-naik23"><img src="assets/btn-github.svg" alt="GitHub" height="40"/></a>
 
 </div>
